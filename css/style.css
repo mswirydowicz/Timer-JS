@@ -41,3 +41,30 @@ h1 {
 .countdown-el span {
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-weight: normal;
+        font-size: 2rem;
+        margin-top: -10rem;
+    }
+
+    .countdown-container {
+        display: flex;
+    }
+
+    .big-text {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1;
+        margin: 0 1.5rem;
+    }
+
+    .countdown-el {
+        text-align: center;
+    }
+
+    .countdown-el span {
+        font-size: 1rem;
+    }
+}
